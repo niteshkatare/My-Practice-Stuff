@@ -1,0 +1,14 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>AngularJS SPA</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script data-main="scripts/main.js" src="scripts/libs/require.js"></script>
+</head>
+<body>
+    <div ng-include="'views/shared/_header.html'"></div>
+    <div id='ctrl'>
+        <ui-view></ui-view>
+    </div>    
+</body>
+</html>
